@@ -1,0 +1,10 @@
+weapon = noone;
+mod1 = noone;
+mod2 = noone;
+display_set_gui_size(2500,1406);
+box_size = 140;
+offset = 150;
+items = noone;
+text[0] = "  Mod 1";
+text[1] = "Weapon";
+text[2] = "  Mod 2";

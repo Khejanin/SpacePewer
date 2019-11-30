@@ -1,0 +1,11 @@
+baseHP = 50;
+baseXP = 15;
+rarity = 0;
+event_inherited();
+activeRange = 20000;
+active = false;
+range = irandom_range(150,500)*sqrt(global.level);
+cooldownValue = 20;
+cooldown = cooldownValue;
+shots = 1;
+projectile = obj_Projectile_Small;

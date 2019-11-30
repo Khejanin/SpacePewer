@@ -1,0 +1,10 @@
+var pcHP = hp/maxHP*100;
+var pcXP = xp/maxXP*100;
+var camera = camera_get_default();
+var widthCamera = camera_get_view_width(camera);
+var heightCamera = camera_get_view_height(camera);
+draw_healthbar(x-widthCamera/2,y+heightCamera/2+100,x+widthCamera/2,y+heightCamera/2+120,pcHP,c_black,c_red,c_green,0,true,true);
+draw_healthbar(x-widthCamera/2,y+heightCamera/2+120,x+widthCamera/2,y+heightCamera/2+130,pcXP,c_gray,c_yellow,c_yellow,0,true,true);
+draw_set_font(fnt_Info);
+draw_text(x-50,y+heightCamera/2+75,"Level : " +string(level) + " Required XP : "  + string(maxXP));
+draw_self();

@@ -1,0 +1,12 @@
+creator = -1;
+speed = 16;
+destroyTimer = 100;
+destroy = false;
+directionSet = false;
+visible = false;
+explode = noone;
+chain = noone;
+homing = noone;
+damage = 1;
+angleSpd = 15;
+sound = snd_Pew;

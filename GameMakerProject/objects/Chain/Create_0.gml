@@ -1,0 +1,12 @@
+damage = random_range(2,8)*sqrt(global.level*3);
+range = irandom_range(200,400)*sqrt(global.level);
+enemy = noone;
+enemies = noone;
+enemiesSet = false;
+next = ds_list_create();
+alive = 50;
+done = false;
+otherMod = noone;
+name = "Chain";
+immortal = false;
+icon = spr_ChainIcon;

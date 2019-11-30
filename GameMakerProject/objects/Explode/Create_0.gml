@@ -1,0 +1,10 @@
+event_inherited();
+range = irandom_range(350,600)*sqrt(global.level);
+image_yscale = range/100;
+image_xscale = range/100;
+image_alpha = 0.5;
+name = "Explode";
+icon = spr_ExplodeIcon;
+damage = random_range(0.5,1.5)*sqrt(global.level);
+audio_sound_pitch(snd_explosion1,random_range(0.8,1.2));
+audio_play_sound(snd_explosion1,-100,false);

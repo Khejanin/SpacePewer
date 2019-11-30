@@ -1,0 +1,10 @@
+baseHP = 150;
+baseXP = 50;
+rarity = 2;
+event_inherited();
+range = irandom_range(50,200)*sqrt(global.level);
+projectile = obj_Projectile_Fat;
+projectileRange = 5;
+shots = 3;
+xpReward = baseXP+level * (image_index + 1);
+cooldownValue = 60;

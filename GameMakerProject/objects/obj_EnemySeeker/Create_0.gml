@@ -1,0 +1,10 @@
+baseHP = 50;
+baseXP = 20;
+rarity = 1;
+event_inherited();
+damage /= 10;
+spd = clamp(irandom_range(10,15*sqrt(global.level)),10,25);
+circleRange = 500;
+angleSpd = 15;
+flankState = false;
+range = 0;
